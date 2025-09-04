@@ -1,0 +1,39 @@
+{
+  "dataset_info": {
+    "name": "Pharmaceutical Impurity Formation Dataset",
+    "description": "Realistic dataset for predicting impurity formation in drug synthesis",
+    "source": "Generated based on pharmaceutical literature and industrial practices",
+    "samples": 2000,
+    "features": 9,
+    "targets": 2
+  },
+  "feature_descriptions": {
+    "Temperature_C": "Reaction temperature in Celsius (20-180\u00b0C)",
+    "Concentration_M": "Substrate concentration in Molarity (0.05-3.0 M)",
+    "pH": "pH of reaction mixture (1-12)",
+    "Reaction_Time_h": "Reaction duration in hours (0.5-24h)",
+    "Catalyst": "Type of catalyst used in reaction",
+    "Catalyst_Loading_mol%": "Catalyst loading in mol% (0-15%)",
+    "Solvent": "Reaction solvent",
+    "Yield_%": "Product yield percentage (15-98%)",
+    "Impurity_%": "Total impurity percentage (0.5-25%)"
+  },
+  "catalysts_info": {
+    "Pd/C": "Palladium on carbon - hydrogenation catalyst",
+    "Pt/C": "Platinum on carbon - reduction catalyst",
+    "Raney-Ni": "Raney Nickel - hydrogenation catalyst",
+    "TEMPO": "(2,2,6,6-Tetramethylpiperidin-1-yl)oxyl - oxidation catalyst",
+    "DMP": "Dess-Martin periodinane - oxidation reagent",
+    "PPh3": "Triphenylphosphine - coupling reaction catalyst",
+    "DMAP": "4-Dimethylaminopyridine - acylation catalyst",
+    "TFA": "Trifluoroacetic acid - deprotection reagent",
+    "None": "No catalyst used"
+  },
+  "validation_notes": [
+    "Temperature ranges based on common pharmaceutical synthesis conditions",
+    "Catalyst selection reflects real pharmaceutical manufacturing practices",
+    "Impurity formation patterns derived from pharmaceutical literature",
+    "pH and solvent effects modeled on known reaction mechanisms",
+    "Concentration effects account for side reactions and polymerization"
+  ]
+}

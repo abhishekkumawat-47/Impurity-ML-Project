@@ -1,0 +1,12 @@
+{
+  "temperature_C": 100.0,
+  "concentration_M": 1.2,
+  "residence_time_min": 30.0,
+  "pH": 3.0,
+  "equiv_oxidant": 1.0,
+  "stirring_rpm": 600,
+  "catalyst": "B",
+  "solvent": "DMF",
+  "predicted_yield": 99.99843086491838,
+  "predicted_impurity": 25.541673098845617
+}
