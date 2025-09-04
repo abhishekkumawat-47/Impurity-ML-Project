@@ -8,6 +8,9 @@
 
 A comprehensive machine learning solution for predicting **yield** and **impurity formation** in pharmaceutical synthesis reactions. This project addresses the critical challenge of optimizing drug synthesis processes by leveraging data-driven approaches to predict reaction outcomes.
 
+![Model Performance Dashboard](figures/quick_demo_results.png)
+*Complete model performance analysis showing prediction accuracy, feature importance, and correlation analysis*
+
 ### 🔬 Business Problem
 - **Challenge**: Pharmaceutical companies spend millions on experimental trials to optimize synthesis conditions
 - **Impact**: 60-80% of synthesis optimization experiments could be avoided with accurate predictive models
@@ -75,12 +78,18 @@ impurity_ml_project/
 - **Feature Importance**: Permutation-based feature ranking
 - **Validation**: Hold-out test set evaluation
 
+![Data Correlation Analysis](figures/correlation_heatmap.png)
+*Feature correlation matrix showing relationships between reaction conditions and outcomes*
+
 ## 📈 Model Performance
 
 | Model | Target | R² Score | MAE | Key Predictors |
 |-------|--------|----------|-----|----------------|
 | **Yield** | Product Yield | 0.427 | ±2.4% | Concentration (37.7%), Temperature (23.4%) |
 | **Impurity** | Side Products | 0.102 | ±0.89% | Catalyst Type (22.2%), Temperature (17.3%) |
+
+![Feature Importance Analysis](figures/feature_importance.png)
+*Feature importance comparison showing which factors most influence yield and impurity predictions*
 
 ## 🚀 Quick Start
 
@@ -150,6 +159,13 @@ python main.py
 | **Standard** | 90°C | 1.0M | 6.5 | TEMPO | 95.0% | 2.81% |
 | **Aggressive** | 120°C | 1.8M | 5.0 | DMP | 93.1% | 4.04% |
 
+### Reaction Optimization Heatmaps
+![Yield Optimization](figures/yield_heatmap_cat_A.png)
+*Temperature vs Concentration optimization heatmap showing predicted yield patterns*
+
+![Impurity Prediction](figures/impurity_heatmap_cat_A.png)
+*Impurity formation heatmap for process safety and quality control*
+
 ## 🎯 Applications & Use Cases
 
 ### 🔬 Process Development
@@ -190,11 +206,22 @@ Impurity Prediction Top Factors:
 • Concentration: 16.3% influence
 ```
 
+![Permutation Importance - Yield](figures/perm_importance_yield.png)
+*Detailed feature importance analysis for yield prediction model*
+
+![Permutation Importance - Impurity](figures/perm_importance_impurity.png)
+*Feature ranking for impurity formation prediction*
+
 ### Key Findings
 - **Concentration** is the most critical factor for yield optimization
 - **Catalyst selection** significantly impacts impurity formation
 - **Temperature** affects both yield and impurity in complex ways
 - **pH control** is essential for consistent results
+
+## 📊 Advanced Analytics Dashboard
+
+![Analysis Dashboard](figures/analysis_dashboard.png)
+*Comprehensive analytics dashboard showing model performance, predictions, and process insights*
 
 ## 🎯 Future Enhancements
 
