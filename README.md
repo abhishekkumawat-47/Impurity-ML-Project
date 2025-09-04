@@ -233,14 +233,5 @@ Impurity Prediction Top Factors:
 
 ---
 
-## 📞 Contact & Portfolio
-
-This project demonstrates expertise in:
-- **Machine Learning Engineering**: End-to-end ML pipeline development
-- **Data Science**: Statistical analysis and predictive modeling
-- **Business Analytics**: Translating technical results into business value
-- **Software Development**: Clean, maintainable, and scalable code
-- **Domain Knowledge**: Pharmaceutical process understanding
-
 **Project Status**: ✅ Production Ready | **Last Updated**: September 2025 | **Ready for Deployment** 🚀
 ## Made By Abhishek kumawat
